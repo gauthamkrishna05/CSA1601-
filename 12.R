@@ -1,0 +1,5 @@
+x <- c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+cat("Original data:", paste(x, collapse = ", "), "\n")
+z <- (x - mean(x)) / sd(x)
+cat("Z-score normalized values:\n")
+print(round(z, 4))

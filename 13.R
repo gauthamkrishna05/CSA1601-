@@ -1,0 +1,8 @@
+x <- c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+cat("Original data:", paste(x, collapse = ", "), "\n")
+cat("Minimum =", min(x), "\n")
+cat("Maximum =", max(x), "\n")
+cat("Mean =", mean(x), "\n")
+minmax <- (x - min(x)) / (max(x) - min(x))
+cat("Min-Max normalized values (range 0 to 1):\n")
+print(round(minmax, 4))

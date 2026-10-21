@@ -1,0 +1,6 @@
+ct <- matrix(c(30, 20, 15, 35, 25, 20), nrow = 2, byrow = TRUE)
+dimnames(ct) <- list(Gender = c("Male", "Female"), Preference = c("Tea", "Coffee", "Juice"))
+cat("Contingency table:\n")
+print(ct)
+result <- chisq.test(ct)
+print(result)

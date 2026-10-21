@@ -1,0 +1,5 @@
+x <- c(10, 12, 15, 18, 20, 22, 25, 28, 30, 35, 40)
+cat("Data:", paste(x, collapse = ", "), "\n")
+cat("Minimum =", min(x), "\n")
+cat("Maximum =", max(x), "\n")
+cat("Mid Range =", (min(x) + max(x)) / 2, "\n")
