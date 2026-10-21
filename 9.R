@@ -1,0 +1,7 @@
+x <- c(10, 12, 15, 18, 20, 22, 25, 28, 30, 35, 40)
+cat("Data:", paste(x, collapse = ", "), "\n")
+q1 <- quantile(x, 0.25)
+q3 <- quantile(x, 0.75)
+cat("First Quartile (Q1) =", q1, "\n")
+cat("Third Quartile (Q3) =", q3, "\n")
+cat("Interquartile Range (IQR) =", IQR(x), "\n")

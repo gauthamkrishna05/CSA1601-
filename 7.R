@@ -1,0 +1,6 @@
+x <- c(12, 15, 18, 20, 22, 25, 28, 30, 35, 40)
+cat("Data:", paste(x, collapse = ", "), "\n")
+print(summary(x))
+cat("Standard Deviation =", sd(x), "\n")
+cat("Variance =", var(x), "\n")
+cat("Range =", diff(range(x)), "\n")
